@@ -1,13 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
 	<title>test git </title>
 </head>
-<body>
+<style>
 
+	body
+	{
+		background-color: rgba(0,125,22,0.5);
+	}
+	
+	section
+	{
+	 text-align: center;
+	 margin: 0 auto;
+	} 
+
+</style>
+
+
+<body>
+<header>
 	<h1>Bienvenue sur le test git </h1>
 	<p> le test de ta soeur</p>
 	<p>josi la cochone</p>
+</header>
+<section style="border: 1px solid green">
+	<h1>Pour créer un depot dans le terminal </h1>
 
+	<p>Allez dans le dossier que vous souhaiter mettre sur github</p>
+	<p>Exemple : <strong>cd /var/www/html/testgit/</strong></p>
+</section>
+<section style="border: 1px solid blue">
+
+	<h2>initialiser le depot </h2>
+	<p>taper la commande suivante: <strong>git init</strong></p>
+</section>
+<section style="border: 1px solid red">
+	<h2>Ajouter les modifications/nouveaux fichier</h2>
+	<p>La ou vos nouveaux fichier ou modification sont : <strong>git add *</strong></p>
+</section>
+<section style="border: 1px solid yellow">
+	<h2>valider les modifications/ajouts</h2>
+	<p>vous devez valider avec un commit : <strong>git commit </strong></p>
+</section>
+
+
+<section style="border: 1px solid brown">
+	<h2>Maintenant vous devez créer un nouveau depot sur le site github</h2>
+	<p>Une fois le dépot créer vous trouverez la section <em>"an existing folder"</em></p>
+	<p>Executez dans votre terminal les commandes afficher dans cette section</p>
+	<p>Exemple:<strong>git remote add origin https://github.com/phenomene01/testgit.git</strong></p>
+
+</section>
+<section style="border: 1px solid purple">
+	<h2>si votre chemin au dépot distant a bien été ajouté vous pourrez envoyer les modifications en ligne avec la commande suivante</h2>
+	<p><strong>git push -u origin master</strong></p>
+</section>
+<footer>
+	<h2>Si vous voyez apparaitre les modifications sur le site github</h2>
+	<h1>Bravo vous avez remplis votre missions</h1>
+</footer>
 </body>
 </html>
